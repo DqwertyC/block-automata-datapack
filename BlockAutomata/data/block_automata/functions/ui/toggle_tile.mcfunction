@@ -1,0 +1,2 @@
+execute as @e[tag=automata_swap_seed] at @s if block ~ ~-1 ~ #block_automata:alive run function block_automata:ui/block_off
+execute as @e[tag=automata_swap_seed] at @s if block ~ ~-1 ~ #block_automata:dead run function block_automata:ui/block_on
